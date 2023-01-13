@@ -2,8 +2,8 @@ module Api
   module V1
     class MenuItemsController < Api::V1::ApplicationController
       def index
-        @menuItems = MenuItem.all
-        render json: @menuItems
+        @menu_items = MenuItem.all
+        render json: @menu_items
       end
 
       def show
@@ -12,13 +12,13 @@ module Api
       end
 
       def create
-        @menuItem = MenuItem.create(
+        @menu_item = MenuItem.create(
           food_name: params[:food_name],
           restaurant_name: params[:restaurant_name],
           food_description: params[:food_description]
         )
 
-        render json: @MenuItem
+        render json: @Menu_item
       end
 
       def update
