@@ -78,7 +78,7 @@ Restaurant back end App is a Rails web application where you can manage you get 
  
 >Front end project link.
 
-- [here](https://github.com/Alusp/hello_react_front_end)
+- [Soon]()
 
 
  
@@ -119,7 +119,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Alusp/hello-rails-react
+  git clone https://github.com/Alusp/restaurantapi
 ```
  
 
@@ -180,8 +180,9 @@ To run tests, run the following command:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Add Response to greetings**
-- [ ] **Add Questions**
+- [ ] **Add Authentication**
+- [ ] **Add Order**
+- [ ] **Add Payment**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
